@@ -28,14 +28,13 @@
             <plugin>
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
-                <version>0.8.12</version>
+                <version>0.8.10</version> <!-- Use the latest version -->
                 <executions>
                     <execution>
                         <goals>
                             <goal>prepare-agent</goal>
                         </goals>
                     </execution>
-                    <!-- Generate code coverage report after tests run -->
                     <execution>
                         <id>report</id>
                         <phase>test</phase>
