@@ -1,5 +1,4 @@
 import org.junit.Test;
-import org.junit.jupiter.api.BeforeEach;
 
 import java.util.Locale;
 import java.util.ResourceBundle;
@@ -8,11 +7,6 @@ import static org.junit.Assert.assertEquals;
 
 public class LocalizedGreetingTest {
     private ResourceBundle messages;
-
-    @BeforeEach
-    public void setUp() {
-        //No specific setup requires
-    }
 
     @Test
     public void testEnglishGreeting() {
