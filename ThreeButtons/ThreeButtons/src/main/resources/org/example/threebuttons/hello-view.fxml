@@ -5,14 +5,13 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" fx:controller="org.example.threebuttons.HelloController">
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.threebuttons.HelloController">
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
 
     <Label fx:id="welcomeText" />
-        <Button fx:id="button1" onAction="#setEN" mnemonicParsing="false" prefHeight="26.0" prefWidth="270.0" text="%button1.text"/>
-        <Button fx:id="button2" onAction="#setIR" mnemonicParsing="false" prefHeight="26.0" prefWidth="270.0" text="%button2.text"/>
-        <Button fx:id="button3" onAction="#setJP" mnemonicParsing="false" prefHeight="26.0" prefWidth="270.0" text="%button3.text"/>
-        <Label fx:id="nameAndTimeLabel" text="Name and Current Time" />
+        <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="270.0" text="button 1" />
+        <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="270.0" text="button 2" />
+        <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="270.0" text="button 3" />
 </VBox>
